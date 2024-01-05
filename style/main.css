@@ -96,11 +96,11 @@ header .landing-title {
     color: var(--Very-dark-desaturated-blue);
     font-size: 55px;
   }
-  & p{
+  & p {
     color: var(--Very-dark-grayish-blue);
     margin: 30px 0;
   }
-  & a{
+  & a {
     color: var(--Very-dark-desaturated-blue);
     text-transform: uppercase;
     font-weight: 900;
@@ -117,6 +117,12 @@ header .landing-title {
   width: 50vw;
   background-repeat: no-repeat;
   background-size: cover;
+  & h3 {
+    color: var(--Dark-desaturated-cyan);
+  }
+  & p {
+    color: var(--Dark-moderate-cyan);
+  }
 }
 
 .photography {
@@ -125,4 +131,24 @@ header .landing-title {
   width: 50vw;
   background-repeat: no-repeat;
   background-size: cover;
+  & h3 {
+    color: var(--Dark-blue);
+  }
+  & p {
+    color: var(--Dark-blue);
+  }
+}
+
+.third-collection-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60% 120px 0 120px;
+  text-align: center;
+  & h3{
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  & p{
+  }
 }
