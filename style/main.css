@@ -139,16 +139,42 @@ header .landing-title {
   }
 }
 
-.third-collection-content{
+.third-collection-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 60% 120px 0 120px;
   text-align: center;
-  & h3{
+  & h3 {
     font-size: 40px;
     margin-bottom: 25px;
   }
-  & p{
+  & p {
+  }
+}
+
+.client-section-title{
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--Grayish-blue);
+  letter-spacing: 8px;
+  font-size: 35px;
+  margin-bottom: 120px;
+  margin-top: 180px;
+}
+
+.client-section-content {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  padding: 0 120px;
+}
+
+.client-section-hero {
+  
+  & img {
+    border-radius: 50%;
+    height: 80px;
   }
 }
